@@ -32,8 +32,6 @@ Contracts Required
 
 MGRS4UTMs
 
-/*convert UTMs to MGRS  */
-
               for every UTM feed received
 
               pay out in MGRS
@@ -42,7 +40,7 @@ MGRS4UTMs
 
 UTC4LTM
 
-/*convert LTM to UTC  */
+
 
               for every LocalTime (LTM) feed received
 
@@ -52,7 +50,6 @@ UTC4LTM
 
 GPGTC4TFC
 
-/*convert GPGISTC4FeedTC  */
 
               for every ThreatCode Feed (TFC)received
 
@@ -60,19 +57,16 @@ GPGTC4TFC
 
              
 
-GPGTC4TFL
+GPGTL4TFL
 
-/*convert GPGISTC4FeedTL  */
 
-              for every ThreatLevel Feed (TFC)received
+              for every ThreatLevel Feed (TFL)received
 
-              pay out in UTC             
+              pay out in GPGTL          
 
              
 
 GPDESC4SitRep
-
-/*convert GPGISTC4SitRepDesc  */
 
               for every SitRep Description Feed (TFC)received
 
