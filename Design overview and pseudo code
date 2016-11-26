@@ -1,0 +1,179 @@
+/* Ethereum Hackerthon November 2016 pseudo code design notes for GPGIS_001
+
+ 
+
+GPGIS_001 Joe Claxton Cyber Diplomat
+
+www.joeclaxton.co.uk (Daily Cyber Feed)
+
+www.joeclaxton.net (Blog)
+
+ 
+
+Elements, Tokens, contracts
+
+Tokens for;
+
+              UTM
+
+              MGRS
+
+              LTM
+
+              UTC
+
+              TFC
+
+              GPGTC
+
+                          
+
+Contracts Required
+
+MGRS4UTMs
+
+/*convert UTMs to MGRS  */
+
+              for every UTM feed received
+
+              pay out in MGRS
+
+ 
+
+UTC4LTM
+
+/*convert LTM to UTC  */
+
+              for every LocalTime (LTM) feed received
+
+              pay out in UTC
+
+ 
+
+GPGTC4TFC
+
+/*convert GPGISTC4FeedTC  */
+
+              for every ThreatCode Feed (TFC)received
+
+              pay out in UTC
+
+             
+
+GPGTC4TFL
+
+/*convert GPGISTC4FeedTL  */
+
+              for every ThreatLevel Feed (TFC)received
+
+              pay out in UTC             
+
+             
+
+GPDESC4SitRep
+
+/*convert GPGISTC4SitRepDesc  */
+
+              for every SitRep Description Feed (TFC)received
+
+              pay out in SitRepDesc
+
+             
+
+ 
+
+             
+
+             
+
+/* The Ledger */
+
+The ledger is an exchange into which competing reports of events are reduced to contracts and tokens.
+
+There is competition for coverage (Source) and veracity estimates (VE)
+
+Winners of the competion are awarded / broken down into their respective tokens.
+
+These tokens then purchase (by contract) a line code made up of Geo Cordinates + UTC TimeStamp + Threat Code + Threat Level + Description
+
+See Notes below for Time, Threat code and Threat Level and SitRep descriptions and immediate disaster respone Requirement Estimates (IDRRE's)
+
+ 
+
+             
+
+             
+
+/*   Notes */
+
+Time Feeds (TFS) have three types
+
+              i. 'web scrapes' taken from timestamp
+
+                                         a. OSINT sit reps
+
+                                         b. News feeds
+
+                                        
+
+              ii. Synchronised server timestamps from Internet of Things (IOT) nearest to event location
+
+             
+
+              iii. Synchronised Reciepient delivery platform
+
+                                         a. Tablet, mobile phone, PC etc.
+
+                                        
+
+Threat Code Feed (TFC)have two types
+
+              i. 'web scrapes' taken from
+
+                                         a. Agency Based (O)pen (S)ource (Int)elligence (TFC_OSINT)
+
+                                         b. Situational Risk Based Analyises (TFC_RBA)
+
+                                        
+
+              ii. (K)ernal (C)anonical (K)ernel (C)anonical (C)orrelation (A)nalysis (KCCA) 'scrapes' from
+
+                                         a. Non Classified, in the public domain, Government Intelligence and security agencies threat code systems TFC_KCCA
+
+                                         b. Non Classified, in the public domain, Military Contractor threat code systems (TFC_MCTS)
+
+ 
+
+SitRepDesc Feeds have three types
+
+              i. (G)overnment (A)ppraisal in the (P)ublic (D)omain (GAPD)
+
+              ii (N)ews Corporation (A)nalyis (NPA)
+
+              iii. (S)ocial (N)etwork (A)nalysis of (S)urvivor Report (SNASR)
+
+ 
+
+Immediate Disaster Respone Requirement Estimates (IDRRE's)       have many types, and for each type the approriate traained personnel but for version 1 are
+
+              i (H)umaitarian (S)upplies (HS)
+
+              ii (V)ictim (R)escue (E)quipment (VRE)
+
+              iii Victim (M)edical (S)upplies (VMS)
+
+              iv. Victim (R)elocation and (P)rotection (S)upplies
+
+             
+
+ 
+
+                                        
+
+                                        
+
+                                        
+
+*/                                    
+
+ 
