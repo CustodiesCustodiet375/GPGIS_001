@@ -1,0 +1,59 @@
+/* Ethereum Hackerthon November 2016
+GPGIS Object List
+GPGIS_001 Joe Claxton Cyber Diplomat
+www.joeclaxton.co.uk (Daily Cyber Feed)
+www.joeclaxton.net (Blog)
+
+Tokens, contracts, feed items
+Tokens for;
+
+              UTM
+
+              MGRS
+
+              LTM
+
+              UTC
+
+              TFC
+
+              GPGTC
+
+              GPGTL
+
+              SRD
+
+              GPDESC
+
+                          
+Contracts
+
+MGRS4UTMs (UTM,MGRS)
+
+UTC4LTM (LTM, UTC )
+
+GPGTC4TFC (TFC,GPGTC)
+
+GPGTL4TFL (IN GPGTF, GPGTF)
+
+GPDESC4SitRep (SRD, GPDESC )
+
+ 
+
+Other functional elements
+
+SOURCE - Competition for Coverage
+
+VE - Veracity Estimates
+
+IDRRE - Immediate Disaster Respone Requirement Estimates
+
+GPGIS_LedgerBCN - Theoretically a blockchain of its own for the purpose of this Hackathon
+
+TFS - TFS_OSINT, TFS_NF, TFS_IOT
+
+TFC - TFC_OSINT, TFC_RBA,TFC_KCCAGov,TFC_KCCAMilCon
+
+SRPD - SRPD_GAP, SRPD_NPA, SRPD_SNASR
+
+IDRRE - IDRRE_HS,IDRRE_VRE,IDRRE_VMS,IDRRE_VRPS
